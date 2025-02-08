@@ -28,7 +28,7 @@ class CuentaBancaria {
   }
 
   void consultarSaldo() {
-    print('Saldo actual de $titular: \$$saldo');
+    print('Saldo actual de ${titular}: ${saldo}');
   }
 }
 
