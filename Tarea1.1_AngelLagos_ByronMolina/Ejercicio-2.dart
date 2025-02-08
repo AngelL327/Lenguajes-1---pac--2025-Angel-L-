@@ -14,6 +14,6 @@ void main() {
       listaUnica.add(listaOriginal[i]);
     }
   }
-  print('Lista original: $listaOriginal');
-  print('Lista con elementos únicos: $listaUnica');
+  print('Lista original: ${listaOriginal}');
+  print('Lista con elementos únicos: ${listaUnica}');
 }

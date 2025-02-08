@@ -38,7 +38,7 @@ class Biblioteca {
 
     print('------- Lista de libros ordenados por año de publicación -------');
     libros.forEach((libro) {
-      print('${libro.titulo} - ${libro.autor} ${libro.anioPublicacion}');
+      print('${libro.titulo}  ${libro.autor} ${libro.anioPublicacion}');
     });
   }
 }

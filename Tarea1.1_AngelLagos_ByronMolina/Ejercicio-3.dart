@@ -29,12 +29,13 @@ void main() {
   ];
   
 print('-------- Lista de empleados ------------');
+print('Nombre    Puesto    Salario                  ');
 for(int i=0; i < empleados.length ; i++){
-print('${empleados[i].nombre} ${empleados[i].puesto} \$${empleados[i].salario}');
+print('${empleados[i].nombre} ${empleados[i].puesto} ${empleados[i].salario}');
 }
 final  SalarioTotal = calSalarioTotal(empleados);
-final SalarioPromedio = calcSalarioPromedio(empleados);
+final SalarioProm = calcSalarioPromedio(empleados);
 print('--------- Calculos ------------');
-print('Salario Total:    \$${SalarioTotal}');
-print('Promedio Total:   \$${SalarioPromedio}');
+print('Salario Total:    ${SalarioTotal}');
+print('Promedio Total:   ${SalarioProm}');
 }
